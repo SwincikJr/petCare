@@ -1,0 +1,173 @@
+
+html{
+    scroll-behavior: smooth;
+ }
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-home {
+    max-width: 1400px;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.menu-home ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.menu-home a {
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    /* color: #FF3E7E; */
+    color: #023C5A;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.menu-home a:hover {
+    color: #ff3e7e;
+}
+
+.menu-home .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.home-link {
+    display: flex;
+}
+
+.banner-home {
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+footer {
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+marquee {
+    text-align: center;
+}
+
+.text-banner-home {
+    color: aliceblue;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.text-banner-home h1 {
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.grid-servicos {
+    display: grid;
+    align-content: center;
+    margin-left: 30px;
+    max-width: 800px;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-products>div {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px 0;
+    color: #565656;
+    font-size: 20px;
+}
+
+.servicos-petcare {
+    display: flex;
+}
+
+.left-servicos {
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-servicos {
+    width: 55%;
+}
+
+.arrow-right {
+    border: solid #FF3E7E;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    margin: 0px 5px 2px 0px;
+    padding: 4px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .quem-somos {
+    color: white;
+    background: url("./assets/section_bg03.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+  }
+.title {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle p {
+    margin-bottom: 0px ;
+}
+
+.contato {  
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.form-group {
+    justify-content: center;
+    display: flex;
+}
+
+.form-group .form-control {
+    width: 500px;
+}
+
+.btn-contato {
+    padding: 10px 60px;
+    background-color: #F5A22C;
+    color: aliceblue;
+}
