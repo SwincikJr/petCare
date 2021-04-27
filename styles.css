@@ -133,7 +133,6 @@ marquee {
     background-size: cover;
     padding-top: 25px;
     padding-bottom: 25px;
-    height: 100vh;
   }
 .title {
     display: flex;
