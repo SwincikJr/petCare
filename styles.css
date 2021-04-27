@@ -131,20 +131,33 @@ marquee {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 250px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 100vh;
   }
 .title {
-    padding-top: 50px;
     display: flex;
     justify-content: center;
+    margin: 20px
 }
 
 .subtitle {
-    padding-top: 20px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.quem-somos-video {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    width: 50%;
 }
 
 .subtitle p {
