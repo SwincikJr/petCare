@@ -171,3 +171,11 @@ marquee {
     background-color: #F5A22C;
     color: aliceblue;
 }
+
+.equipe {
+    text-align: center;
+}
+
+hr {
+    border-color: black;
+}
