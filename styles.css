@@ -163,10 +163,16 @@ marquee {
     margin-bottom: 0px ;
 }
 
-.contato {  
+.contato { 
+    color: white;
+    padding: 50px; 
     margin-bottom: 20px;
     width: 100%;
     text-align: center;
+    background: url("./assets/section_bg03.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .form-group {
@@ -183,3 +189,41 @@ marquee {
     background-color: #F5A22C;
     color: aliceblue;
 }
+
+.horarios {
+    width: 100%;
+    padding: 50px;
+}
+
+.horarios-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.horarios-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.horarios-table {
+    width: 70%;
+}
+
+.horarios-table td, tr {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.table-service {
+    padding-right: 15px !important;
+    text-align: right !important;
+    font-weight: bold;
+}
+
+
